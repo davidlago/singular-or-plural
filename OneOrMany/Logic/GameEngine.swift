@@ -152,7 +152,13 @@ final class GameEngine {
 
     var totalCards: Int? { mode.isEndless ? nil : deck.count }
     var cardNumber: Int { mode.isEndless ? answered + 1 : max(1, deckIndex) }
-    var elapsed: Double { phase == .card ? now() - shownAt : 0 }
+    var elapsed: Double {
+        if let fixed = fixedElapsed { return fixed }
+        return phase == .card ? now() - shownAt : 0
+    }
+    /// Screenshot mode: shows the card's clock stopped at this many seconds.
+    @ObservationIgnored var fixedElapsed: Double?
+    @ObservationIgnored private var frozen = false
     var sprintRemaining: Double? {
         guard mode == .sprint else { return nil }
         if phase == .paused, let r = sprintRemainingAtPause { return max(0, r) }
@@ -170,7 +176,7 @@ final class GameEngine {
     // MARK: lifecycle
 
     func start() {
-        guard case .countdown = phase, clockTask == nil else { return }
+        guard !frozen, case .countdown = phase, clockTask == nil else { return }
         startClock()
         runCountdown()
     }
@@ -393,6 +399,30 @@ final class GameEngine {
     }
 
     #if DEBUG
+    /// Screenshot mode: shows one card in a fixed state, with no clock running.
+    func freezeForScreenshot(item: Item, phase: GamePhase, score: Int, streak: Int, cardNumber: Int, total: Int,
+                             chose: Side? = nil, elapsed: Double = 0.8) {
+        frozen = true
+        fixedElapsed = elapsed
+        deck = Array(repeating: item, count: total)
+        deckIndex = cardNumber
+        current = item
+        cardSerial = 1
+        self.score = score
+        self.streak = streak
+        bestStreak = streak
+        answered = cardNumber - 1
+        correctCount = max(0, cardNumber - 2)
+        shownAt = now() - elapsed
+        if let chose {
+            let ok = chose == item.answer
+            lastAnswer = AnswerRecord(at: Date(), item: item, chose: chose, correct: ok, timeout: false, reaction: elapsed,
+                                      par: item.par, limit: nil, changedMind: false, points: ok ? 100 : Tuning.wrongPenalty,
+                                      speedBonus: 50, multiplier: 1, streak: streak)
+        }
+        self.phase = phase
+    }
+
     /// Test hook: skip the countdown and show the first card immediately.
     func beginForTesting() {
         if mode == .sprint { sprintEndsAt = now() + Tuning.sprintDuration }

@@ -39,6 +39,14 @@ struct SummaryView: View {
             .padding(.bottom, 24)
         }
         .scrollIndicators(.hidden)
+        .overlay(alignment: .topLeading) {
+            CircleIconButton(systemName: "xmark", label: "Back to home",
+                             fill: night ? Palette.nightGround : Palette.surface,
+                             tint: night ? Palette.nightText : Palette.ink,
+                             line: night ? Palette.nightText : Palette.ink) { onClose() }
+                .padding(.leading, 18)
+                .padding(.top, 4)
+        }
         .onAppear {
             if isNewBest || summary.passed == true || summary.stars == 3 { Feedback.shared.celebrate() }
         }
@@ -191,8 +199,13 @@ struct SummaryView: View {
     private var buttons: some View {
         HStack(spacing: 10) {
             Button { onClose() } label: {
-                Text("Done").font(Theme.body(17, .heavy)).foregroundStyle(Palette.ink).frame(maxWidth: .infinity, minHeight: 56)
+                HStack(spacing: 8) {
+                    Image(systemName: "house.fill").font(.system(size: 15, weight: .bold))
+                    Text("Home").font(Theme.body(17, .heavy))
+                }
+                .foregroundStyle(Palette.ink).frame(maxWidth: .infinity, minHeight: 56)
             }
+            .accessibilityLabel("Back to home")
             .buttonStyle(StickerButtonStyle(fill: Palette.surface, radius: 18, shadow: 3, shadowColor: night ? Palette.nightText : Palette.ink))
 
             Button { launch(nextConfig) } label: {
@@ -204,8 +217,8 @@ struct SummaryView: View {
             }
             .buttonStyle(StickerButtonStyle(fill: Palette.ink, radius: 18, shadow: 3, shadowColor: night ? Palette.pop : Palette.one,
                                             strokeColor: night ? Palette.nightText : Palette.ink))
-            .layoutPriority(1)
         }
+        .fixedSize(horizontal: false, vertical: true)
         .padding(.top, 4)
     }
 

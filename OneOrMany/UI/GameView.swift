@@ -14,6 +14,14 @@ struct GameView: View {
     @State private var tierBanner: Int?
     @State private var cheering = false
 
+    init(engine: GameEngine, previousBest: Int?, lean: Side? = nil, tierBanner: Int? = nil) {
+        self.engine = engine
+        self.previousBest = previousBest
+        _leaning = State(initialValue: lean)
+        _dragX = State(initialValue: lean == .many ? 22 : (lean == .one ? -22 : 0))
+        _tierBanner = State(initialValue: tierBanner)
+    }
+
     private var mode: GameMode { engine.mode }
     private var colors: ScreenColors {
         if mode.isTimed { return .night }

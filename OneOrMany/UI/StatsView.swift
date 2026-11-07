@@ -216,7 +216,6 @@ struct StatsView: View {
         .padding(12)
         .frame(maxWidth: .infinity)
         .sticker(Palette.surface, radius: 20, shadow: 0)
-        .layoutPriority(1)
     }
 
     private var masteredTile: some View {
@@ -227,7 +226,8 @@ struct StatsView: View {
                 .fixedSize(horizontal: false, vertical: true)
         }
         .padding(12)
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .frame(width: 128, alignment: .topLeading)
+        .frame(maxHeight: .infinity, alignment: .topLeading)
         .sticker(Palette.good, radius: 20, shadow: 0)
     }
 

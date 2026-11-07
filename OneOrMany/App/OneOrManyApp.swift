@@ -1,5 +1,5 @@
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 @main
 struct OneOrManyApp: App {
@@ -9,8 +9,15 @@ struct OneOrManyApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RootView()
+            #if DEBUG
+            if let scene = ScreenshotMode.scene {
+                ScreenshotRoot(scene: scene).modelContainer(ScreenshotMode.container)
+            } else {
+                RootView().modelContainer(for: AppSchema.models)
+            }
+            #else
+            RootView().modelContainer(for: AppSchema.models)
+            #endif
         }
-        .modelContainer(for: AppSchema.models)
     }
 }
