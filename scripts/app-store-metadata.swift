@@ -185,18 +185,28 @@ if let build = builds.first {
 
 // MARK: App Review notes
 
-let reviewNotes: [String: Any] = ["notes": text("reviewNotes"), "demoAccountRequired": false]
+// Your contact details (name, phone, email) are entered on the website, not kept in this public repo. Once the review
+// details exist, Apple requires them on every update, so they're sent back unchanged, or the update waits for them.
+var reviewNotes: [String: Any] = ["notes": text("reviewNotes"), "demoAccountRequired": false]
+let contactKeys = ["contactFirstName", "contactLastName", "contactPhone", "contactEmail"]
 if let detail = one(await api("GET", "appStoreVersions/\(versionID)/appStoreReviewDetail", optional: true)) {
-    await api("PATCH", "appStoreReviewDetails/\(id(detail))", body: ["data": [
-        "type": "appStoreReviewDetails", "id": id(detail), "attributes": reviewNotes,
-    ]])
+    let existing = attributes(detail)
+    if contactKeys.allSatisfy({ !((existing[$0] as? String) ?? "").isEmpty }) {
+        for key in contactKeys { reviewNotes[key] = existing[key] }
+        await api("PATCH", "appStoreReviewDetails/\(id(detail))", body: ["data": [
+            "type": "appStoreReviewDetails", "id": id(detail), "attributes": reviewNotes,
+        ]])
+        print("App Review: notes, no sign-in")
+    } else {
+        print("App Review: notes not updated; add your contact details in App Store Connect ▸ the version ▸ App Review Information first")
+    }
 } else {
     await api("POST", "appStoreReviewDetails", body: ["data": [
         "type": "appStoreReviewDetails", "attributes": reviewNotes,
         "relationships": ["appStoreVersion": ref("appStoreVersions", versionID)],
     ]])
+    print("App Review: notes, no sign-in")
 }
-print("App Review: notes, no sign-in")
 
 // MARK: Screenshots
 

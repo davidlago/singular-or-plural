@@ -28,7 +28,7 @@ the round summary, Home, the Journey map, Stats.
 |---|---|
 | Name | One or Many |
 | Subtitle | Is or are? Swipe it fast |
-| Category | Education; secondary Games (Word, Educational) |
+| Category | Education; secondary Games (Word) |
 | Privacy policy URL | https://davidlago.github.io/singular-or-plural/privacy.html |
 | Support URL | https://davidlago.github.io/singular-or-plural/support.html |
 | Marketing URL | https://davidlago.github.io/singular-or-plural/ |
@@ -42,10 +42,12 @@ The API can't set these, so they're entered in App Store Connect by hand:
 
 | Field | Value |
 |---|---|
-| Age rating | 4+: every question answered None or No (no web access, no user-generated content shared with others, no ads, no purchases) |
+| Age rating | 4+ (calculated). In-App Controls: Parental Controls **Yes** (the PIN-protected Parent corner lets a parent monitor progress and turn topics off), Age Assurance No. Every other question None or No: no web access, no user-generated content shared with others, no social features or chat, no ads, no gambling, contests or loot boxes |
+| Age category override | Not Applicable (not "Made for Kids") |
 | Kids Category | Not opted in. The app suits children, but the Kids Category adds requirements (parental gates and more) that it doesn't need: it has no links, purchases or ads |
+| Korea | The Republic of Korea asks games for a Rating Classification Number (App Information ▸ Age Ratings ▸ Add RCN). Without one the app may not appear there |
 | Content rights | Doesn't contain, show or access third-party content |
-| Price | Free, all territories |
+| Price | Free ($0.00), base country United States, all 175 countries or regions, available on release |
 | App Privacy | **Data Not Collected** |
 | App Review contact | your name, phone and email |
 | Sign-in required | No |
