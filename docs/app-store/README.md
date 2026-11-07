@@ -68,3 +68,8 @@ time without review; the description and keywords change with a new version.
 2. When the build has processed, run the metadata script (it also selects the newest processed build for the
    version), then check the website-only fields above.
 3. In App Store Connect ▸ the version ▸ **Add for Review**, then **Submit to App Review**.
+
+## History
+
+- **1.0.0** (build 202611071307, uploaded by CI from the `v1.0.0` tag): submitted for review 2026-11-07, released
+  automatically once approved. App Review contact copied from Dave's Music Library's listing.
