@@ -1,4 +1,5 @@
-// Draws the app icon (1024×1024, opaque, full bleed): Solo and the Crew on the lilac dot grid.
+// Draws the app icon (1024×1024, opaque, full bleed): the square split like a swipe card, Solo on the orange
+// "one" side and the Crew on the blue "many" side.
 //
 //   swift scripts/make-icon.swift
 //
@@ -15,6 +16,7 @@ func color(_ hex: UInt32) -> CGColor {
 }
 let ink = color(0x1B0F3B), ground = color(0xEFE7FF), dot = color(0xD9CBFA)
 let one = color(0xFF7A1F), manyLight = color(0x5B8CFF), manyPale = color(0x8FB0FF)
+let oneSide = color(0xFFE0C2), manySide = color(0xD6E2FF)
 
 let size = 1024
 let ctx = CGContext(data: nil, width: size, height: size, bitsPerComponent: 8, bytesPerRow: 0, space: space,
@@ -22,11 +24,15 @@ let ctx = CGContext(data: nil, width: size, height: size, bitsPerComponent: 8, b
 // Flip so y grows downward, like the SwiftUI mascots.
 ctx.translateBy(x: 0, y: CGFloat(size)); ctx.scaleBy(x: 1, y: -1)
 
-ctx.setFillColor(ground); ctx.fill(CGRect(x: 0, y: 0, width: size, height: size))
-ctx.setFillColor(dot)
-for y in stride(from: 32, to: size, by: 64) { for x in stride(from: 32, to: size, by: 64) {
-    ctx.fillEllipse(in: CGRect(x: x - 5, y: y - 5, width: 10, height: 10))
-} }
+// Two sides, split by a slightly tilted line, like a card mid-swipe
+let top = CGPoint(x: 572, y: 0), bottom = CGPoint(x: 452, y: 1024)
+ctx.setFillColor(oneSide)
+ctx.addLines(between: [CGPoint(x: 0, y: 0), top, bottom, CGPoint(x: 0, y: 1024)]); ctx.fillPath()
+ctx.setFillColor(manySide)
+ctx.addLines(between: [top, CGPoint(x: 1024, y: 0), CGPoint(x: 1024, y: 1024), bottom]); ctx.fillPath()
+_ = (ground, dot)
+ctx.setStrokeColor(ink); ctx.setLineWidth(16)
+ctx.move(to: top); ctx.addLine(to: bottom); ctx.strokePath()
 
 func blob(_ c: CGPoint, _ r: CGFloat, _ fill: CGColor, line: CGFloat, shadow: CGFloat) {
     ctx.setFillColor(ink)
@@ -46,17 +52,17 @@ func smile(_ from: CGPoint, _ to: CGPoint, _ control: CGPoint, _ width: CGFloat)
 }
 
 // The Crew (right): two side blobs below, the big one on top
-blob(CGPoint(x: 590, y: 690), 120, manyPale, line: 24, shadow: 20)
-blob(CGPoint(x: 850, y: 690), 120, manyPale, line: 24, shadow: 20)
-eyes([CGPoint(x: 560, y: 720), CGPoint(x: 620, y: 720), CGPoint(x: 820, y: 720), CGPoint(x: 880, y: 720)], 15)
-blob(CGPoint(x: 720, y: 480), 170, manyLight, line: 26, shadow: 22)
-eyes([CGPoint(x: 675, y: 455), CGPoint(x: 765, y: 455)], 22)
-smile(CGPoint(x: 675, y: 530), CGPoint(x: 765, y: 530), CGPoint(x: 720, y: 580), 20)
+blob(CGPoint(x: 650, y: 700), 108, manyPale, line: 24, shadow: 20)
+blob(CGPoint(x: 880, y: 700), 108, manyPale, line: 24, shadow: 20)
+eyes([CGPoint(x: 622, y: 724), CGPoint(x: 678, y: 724), CGPoint(x: 852, y: 724), CGPoint(x: 908, y: 724)], 14)
+blob(CGPoint(x: 765, y: 470), 160, manyLight, line: 26, shadow: 22)
+eyes([CGPoint(x: 722, y: 445), CGPoint(x: 808, y: 445)], 22)
+smile(CGPoint(x: 720, y: 520), CGPoint(x: 810, y: 520), CGPoint(x: 765, y: 568), 20)
 
-// Solo (left, in front)
-blob(CGPoint(x: 300, y: 560), 215, one, line: 30, shadow: 28)
-eyes([CGPoint(x: 240, y: 515), CGPoint(x: 360, y: 515)], 32)
-smile(CGPoint(x: 230, y: 615), CGPoint(x: 370, y: 615), CGPoint(x: 300, y: 685), 28)
+// Solo (left)
+blob(CGPoint(x: 268, y: 530), 200, one, line: 30, shadow: 28)
+eyes([CGPoint(x: 212, y: 488), CGPoint(x: 324, y: 488)], 30)
+smile(CGPoint(x: 204, y: 580), CGPoint(x: 332, y: 580), CGPoint(x: 268, y: 648), 28)
 
 let url = URL(fileURLWithPath: CommandLine.arguments[0]).deletingLastPathComponent().deletingLastPathComponent()
     .appendingPathComponent("OneOrMany/Assets.xcassets/AppIcon.appiconset/AppIcon.png")
