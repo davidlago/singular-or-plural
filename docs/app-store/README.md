@@ -83,6 +83,14 @@ time without review; the description and keywords change with a new version.
    version), then check the website-only fields above.
 3. In App Store Connect ▸ the version ▸ **Add for Review**, then **Submit to App Review**.
 
+## TestFlight
+
+- **Family** (internal): the developer account only; gets every build as soon as it processes.
+- **Kids** (external, 2 family testers invited by email): every build needs Beta App Review before testers get it.
+  Test Information (beta description, feedback email, Beta App Review contact copied from the App Store review
+  details, no sign-in) is filled in. To give them a new build: TestFlight ▸ Kids ▸ Builds ▸ + ▸ pick the build ▸
+  What to Test ▸ Submit for Review.
+
 ## History
 
 - **1.0.0** (build 202611071307, uploaded by CI from the `v1.0.0` tag): submitted for review 2026-11-07, then
@@ -90,3 +98,5 @@ time without review; the description and keywords change with a new version.
   copied from Dave's Music Library's listing.
 - **1.1.0** (build 202611071345, from the `v1.1.0` tag, 320 sentences): the first version is now 1.1.0 instead,
   with the header and search results images attached; submitted 2026-11-07, released automatically once approved.
+- **TestFlight Kids group**: build 202611071345 submitted for Beta App Review 2026-11-07; testers are notified
+  automatically once it is approved.
