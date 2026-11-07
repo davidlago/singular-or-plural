@@ -22,6 +22,21 @@ the round summary, Home, the Journey map, Stats.
 `DEVICE="iPhone 18 Pro Max" OUT=docs/app-store/iphone scripts/screenshots.sh` makes the optional 6.9-inch set
 (1320 × 2868).
 
+## Header and search results (creative assets)
+
+`scripts/make-creative-assets.swift` draws them into `creative/` (opaque PNGs, key content centered):
+
+- `header.png`, 3840 × 1646 (21:9), product page header: a card mid-swipe between Solo with "is" and the Crew
+  with "are".
+- `search.png`, 3840 × 2560 (3:2), search results: "Is or are? Swipe it fast." next to two real screenshots (it
+  reads `iphone-6.3/`, so run `scripts/screenshots.sh` first).
+
+They're uploaded to the **Asset Library** and sit in a draft submission. Apple only takes a standalone asset
+submission once the app has a live version, so after 1.0.0 is released: Asset Library ▸ Draft Submissions ▸
+**Submit for Review**. Once they're approved: the live version ▸ Header and Search Results ▸ Header (then Search
+Results) ▸ **Browse Assets**, pick the asset, **Publish**. No new app version is needed. They show on iOS 27 and
+later.
+
 ## App information (set by the script)
 
 | Field | Value |
