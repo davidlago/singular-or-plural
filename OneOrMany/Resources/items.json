@@ -1,0 +1,2242 @@
+[
+ {
+  "id": "L1-001",
+  "level": 1,
+  "pattern": "basic-be",
+  "kind": "verb",
+  "text": "The dog ___ sleeping on the sofa.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The dog",
+  "why": "One dog, so \"is\"."
+ },
+ {
+  "id": "L1-002",
+  "level": 1,
+  "pattern": "basic-be",
+  "kind": "verb",
+  "text": "The cars ___ stopped at the light.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The cars",
+  "why": "Cars means more than one, so \"are\"."
+ },
+ {
+  "id": "L1-003",
+  "level": 1,
+  "pattern": "basic-be",
+  "kind": "verb",
+  "text": "My sisters ___ at school.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "My sisters",
+  "why": "Sisters means more than one, so \"are\"."
+ },
+ {
+  "id": "L1-004",
+  "level": 1,
+  "pattern": "basic-be",
+  "kind": "verb",
+  "text": "The pizza ___ really hot.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The pizza",
+  "why": "One pizza, so \"is\"."
+ },
+ {
+  "id": "L1-005",
+  "level": 1,
+  "pattern": "basic-be",
+  "kind": "verb",
+  "text": "Your shoes ___ under the bed.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "Your shoes",
+  "why": "Shoes means more than one, so \"are\"."
+ },
+ {
+  "id": "L1-006",
+  "level": 1,
+  "pattern": "basic-be",
+  "kind": "verb",
+  "text": "The teacher ___ in the classroom.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The teacher",
+  "why": "One teacher, so \"is\"."
+ },
+ {
+  "id": "L1-007",
+  "level": 1,
+  "pattern": "this-these",
+  "kind": "verb",
+  "text": "Those apples ___ green.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "Those apples",
+  "why": "\"Those\" points at many, so \"are\"."
+ },
+ {
+  "id": "L1-008",
+  "level": 1,
+  "pattern": "basic-be",
+  "kind": "verb",
+  "text": "My phone ___ on the table.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "My phone",
+  "why": "One phone, so \"is\"."
+ },
+ {
+  "id": "L1-009",
+  "level": 1,
+  "pattern": "basic-be",
+  "kind": "verb",
+  "text": "The kids ___ very loud today.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The kids",
+  "why": "Kids means more than one, so \"are\"."
+ },
+ {
+  "id": "L1-010",
+  "level": 1,
+  "pattern": "basic-be",
+  "kind": "verb",
+  "text": "Her backpack ___ heavy.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Her backpack",
+  "why": "One backpack, so \"is\"."
+ },
+ {
+  "id": "L1-011",
+  "level": 1,
+  "pattern": "number-words",
+  "kind": "noun",
+  "text": "I have two ___ in my backpack.",
+  "options": {
+   "one": "book",
+   "many": "books"
+  },
+  "answer": "many",
+  "subject": "two",
+  "why": "Two means many, so \"books\"."
+ },
+ {
+  "id": "L1-012",
+  "level": 1,
+  "pattern": "number-words",
+  "kind": "noun",
+  "text": "She has one ___ named Max.",
+  "options": {
+   "one": "dog",
+   "many": "dogs"
+  },
+  "answer": "one",
+  "subject": "one",
+  "why": "One means one, so \"dog\"."
+ },
+ {
+  "id": "L1-013",
+  "level": 1,
+  "pattern": "number-words",
+  "kind": "noun",
+  "text": "We saw three ___ at the park.",
+  "options": {
+   "one": "bird",
+   "many": "birds"
+  },
+  "answer": "many",
+  "subject": "three",
+  "why": "Three means many, so \"birds\"."
+ },
+ {
+  "id": "L1-014",
+  "level": 1,
+  "pattern": "number-words",
+  "kind": "noun",
+  "text": "I ate one ___ for lunch.",
+  "options": {
+   "one": "apple",
+   "many": "apples"
+  },
+  "answer": "one",
+  "subject": "one",
+  "why": "One means one, so \"apple\"."
+ },
+ {
+  "id": "L1-015",
+  "level": 1,
+  "pattern": "number-words",
+  "kind": "noun",
+  "text": "My mom bought five ___.",
+  "options": {
+   "one": "orange",
+   "many": "oranges"
+  },
+  "answer": "many",
+  "subject": "five",
+  "why": "Five means many, so \"oranges\"."
+ },
+ {
+  "id": "L1-016",
+  "level": 1,
+  "pattern": "this-these",
+  "kind": "noun",
+  "text": "This ___ is really heavy.",
+  "options": {
+   "one": "box",
+   "many": "boxes"
+  },
+  "answer": "one",
+  "subject": "This",
+  "why": "\"This\" points at one thing, so \"box\"."
+ },
+ {
+  "id": "L1-017",
+  "level": 1,
+  "pattern": "this-these",
+  "kind": "noun",
+  "text": "These ___ are too small.",
+  "options": {
+   "one": "shoe",
+   "many": "shoes"
+  },
+  "answer": "many",
+  "subject": "These",
+  "why": "\"These\" points at many, so \"shoes\"."
+ },
+ {
+  "id": "L1-018",
+  "level": 1,
+  "pattern": "this-these",
+  "kind": "noun",
+  "text": "That ___ is my favorite.",
+  "options": {
+   "one": "song",
+   "many": "songs"
+  },
+  "answer": "one",
+  "subject": "That",
+  "why": "\"That\" points at one thing, so \"song\"."
+ },
+ {
+  "id": "L1-019",
+  "level": 1,
+  "pattern": "this-these",
+  "kind": "noun",
+  "text": "Those ___ belong to my brother.",
+  "options": {
+   "one": "game",
+   "many": "games"
+  },
+  "answer": "many",
+  "subject": "Those",
+  "why": "\"Those\" points at many, so \"games\"."
+ },
+ {
+  "id": "L1-020",
+  "level": 1,
+  "pattern": "this-these",
+  "kind": "noun",
+  "text": "This ___ is for you.",
+  "options": {
+   "one": "gift",
+   "many": "gifts"
+  },
+  "answer": "one",
+  "subject": "This",
+  "why": "\"This\" points at one thing, so \"gift\"."
+ },
+ {
+  "id": "L2-001",
+  "level": 2,
+  "pattern": "present-s",
+  "kind": "verb",
+  "text": "The girl ___ to school every day.",
+  "options": {
+   "one": "walks",
+   "many": "walk"
+  },
+  "answer": "one",
+  "subject": "The girl",
+  "why": "One girl, so the verb gets the -s: \"walks\"."
+ },
+ {
+  "id": "L2-002",
+  "level": 2,
+  "pattern": "present-s",
+  "kind": "verb",
+  "text": "The birds ___ every morning.",
+  "options": {
+   "one": "sings",
+   "many": "sing"
+  },
+  "answer": "many",
+  "subject": "The birds",
+  "why": "Many birds, so no -s on the verb: \"sing\"."
+ },
+ {
+  "id": "L2-003",
+  "level": 2,
+  "pattern": "present-s",
+  "kind": "verb",
+  "text": "My brother ___ video games.",
+  "options": {
+   "one": "plays",
+   "many": "play"
+  },
+  "answer": "one",
+  "subject": "My brother",
+  "why": "One brother, so the verb gets the -s."
+ },
+ {
+  "id": "L2-004",
+  "level": 2,
+  "pattern": "present-s",
+  "kind": "verb",
+  "text": "My friends ___ near the park.",
+  "options": {
+   "one": "lives",
+   "many": "live"
+  },
+  "answer": "many",
+  "subject": "My friends",
+  "why": "Many friends, so no -s on the verb: \"live\"."
+ },
+ {
+  "id": "L2-005",
+  "level": 2,
+  "pattern": "present-s",
+  "kind": "verb",
+  "text": "The baby ___ a lot at night.",
+  "options": {
+   "one": "cries",
+   "many": "cry"
+  },
+  "answer": "one",
+  "subject": "The baby",
+  "why": "One baby, so the verb gets the -s: \"cries\"."
+ },
+ {
+  "id": "L2-006",
+  "level": 2,
+  "pattern": "present-s",
+  "kind": "verb",
+  "text": "The dogs ___ at the mailman.",
+  "options": {
+   "one": "barks",
+   "many": "bark"
+  },
+  "answer": "many",
+  "subject": "The dogs",
+  "why": "Many dogs, so no -s on the verb: \"bark\"."
+ },
+ {
+  "id": "L2-007",
+  "level": 2,
+  "pattern": "has-have",
+  "kind": "verb",
+  "text": "My parents ___ a red car.",
+  "options": {
+   "one": "has",
+   "many": "have"
+  },
+  "answer": "many",
+  "subject": "My parents",
+  "why": "Parents means many, so \"have\"."
+ },
+ {
+  "id": "L2-008",
+  "level": 2,
+  "pattern": "has-have",
+  "kind": "verb",
+  "text": "Our school ___ a big gym.",
+  "options": {
+   "one": "has",
+   "many": "have"
+  },
+  "answer": "one",
+  "subject": "Our school",
+  "why": "One school, so \"has\"."
+ },
+ {
+  "id": "L2-009",
+  "level": 2,
+  "pattern": "has-have",
+  "kind": "verb",
+  "text": "The twins ___ the same shirt.",
+  "options": {
+   "one": "has",
+   "many": "have"
+  },
+  "answer": "many",
+  "subject": "The twins",
+  "why": "Twins means two, so \"have\"."
+ },
+ {
+  "id": "L2-010",
+  "level": 2,
+  "pattern": "has-have",
+  "kind": "verb",
+  "text": "My cat ___ green eyes.",
+  "options": {
+   "one": "has",
+   "many": "have"
+  },
+  "answer": "one",
+  "subject": "My cat",
+  "why": "One cat, so \"has\"."
+ },
+ {
+  "id": "L2-011",
+  "level": 2,
+  "pattern": "do-does",
+  "kind": "verb",
+  "text": "___ your brother play soccer?",
+  "options": {
+   "one": "Does",
+   "many": "Do"
+  },
+  "answer": "one",
+  "subject": "your brother",
+  "why": "Your brother is one person, so \"Does\"."
+ },
+ {
+  "id": "L2-012",
+  "level": 2,
+  "pattern": "do-does",
+  "kind": "verb",
+  "text": "___ your parents speak Spanish?",
+  "options": {
+   "one": "Does",
+   "many": "Do"
+  },
+  "answer": "many",
+  "subject": "your parents",
+  "why": "Your parents means two people, so \"Do\"."
+ },
+ {
+  "id": "L2-013",
+  "level": 2,
+  "pattern": "do-does",
+  "kind": "verb",
+  "text": "My sister ___ not like spiders.",
+  "options": {
+   "one": "does",
+   "many": "do"
+  },
+  "answer": "one",
+  "subject": "My sister",
+  "why": "One sister, so \"does\"."
+ },
+ {
+  "id": "L2-014",
+  "level": 2,
+  "pattern": "do-does",
+  "kind": "verb",
+  "text": "The boys ___ not want to leave.",
+  "options": {
+   "one": "does",
+   "many": "do"
+  },
+  "answer": "many",
+  "subject": "The boys",
+  "why": "Boys means many, so \"do\"."
+ },
+ {
+  "id": "L2-015",
+  "level": 2,
+  "pattern": "was-were",
+  "kind": "verb",
+  "text": "We ___ late for the bus.",
+  "options": {
+   "one": "was",
+   "many": "were"
+  },
+  "answer": "many",
+  "subject": "We",
+  "why": "\"We\" is more than one person, so \"were\"."
+ },
+ {
+  "id": "L2-016",
+  "level": 2,
+  "pattern": "was-were",
+  "kind": "verb",
+  "text": "The movie ___ really funny.",
+  "options": {
+   "one": "was",
+   "many": "were"
+  },
+  "answer": "one",
+  "subject": "The movie",
+  "why": "One movie, so \"was\"."
+ },
+ {
+  "id": "L2-017",
+  "level": 2,
+  "pattern": "was-were",
+  "kind": "verb",
+  "text": "My shoes ___ wet after the rain.",
+  "options": {
+   "one": "was",
+   "many": "were"
+  },
+  "answer": "many",
+  "subject": "My shoes",
+  "why": "Shoes means many, so \"were\"."
+ },
+ {
+  "id": "L2-018",
+  "level": 2,
+  "pattern": "was-were",
+  "kind": "verb",
+  "text": "The test ___ easy.",
+  "options": {
+   "one": "was",
+   "many": "were"
+  },
+  "answer": "one",
+  "subject": "The test",
+  "why": "One test, so \"was\"."
+ },
+ {
+  "id": "L2-019",
+  "level": 2,
+  "pattern": "present-s",
+  "kind": "verb",
+  "text": "My grandma ___ cookies every Sunday.",
+  "options": {
+   "one": "bakes",
+   "many": "bake"
+  },
+  "answer": "one",
+  "subject": "My grandma",
+  "why": "One grandma, so the verb gets the -s."
+ },
+ {
+  "id": "L2-020",
+  "level": 2,
+  "pattern": "present-s",
+  "kind": "verb",
+  "text": "The students ___ lunch at noon.",
+  "options": {
+   "one": "eats",
+   "many": "eat"
+  },
+  "answer": "many",
+  "subject": "The students",
+  "why": "Many students, so no -s on the verb: \"eat\"."
+ },
+ {
+  "id": "L3-001",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "The children ___ playing outside.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The children",
+  "why": "Children is already plural (one child, many children)."
+ },
+ {
+  "id": "L3-002",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "People ___ waiting in line.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "People",
+  "why": "People is plural (one person, many people)."
+ },
+ {
+  "id": "L3-003",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "My feet ___ cold.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "My feet",
+  "why": "Feet is plural (one foot, two feet)."
+ },
+ {
+  "id": "L3-004",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "noun",
+  "text": "Two ___ ran across the kitchen.",
+  "options": {
+   "one": "mouse",
+   "many": "mice"
+  },
+  "answer": "many",
+  "subject": "Two",
+  "why": "Two means many: one mouse, two mice."
+ },
+ {
+  "id": "L3-005",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "noun",
+  "text": "My little brother lost a ___.",
+  "options": {
+   "one": "tooth",
+   "many": "teeth"
+  },
+  "answer": "one",
+  "subject": "a",
+  "why": "\"A\" means one: one tooth, many teeth."
+ },
+ {
+  "id": "L3-006",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "noun",
+  "text": "The dentist checked all my ___.",
+  "options": {
+   "one": "tooth",
+   "many": "teeth"
+  },
+  "answer": "many",
+  "subject": "all",
+  "why": "\"All my\" means many: one tooth, many teeth."
+ },
+ {
+  "id": "L3-007",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "That man ___ my uncle.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "That man",
+  "why": "One man (many men), so \"is\"."
+ },
+ {
+  "id": "L3-008",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "The women ___ talking about the game.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The women",
+  "why": "Women is plural (one woman, many women)."
+ },
+ {
+  "id": "L3-009",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "A child ___ crying in the store.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "A child",
+  "why": "One child (many children), so \"is\"."
+ },
+ {
+  "id": "L3-010",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "That person ___ really nice.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "That person",
+  "why": "One person (many people), so \"is\"."
+ },
+ {
+  "id": "L3-011",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "noun",
+  "text": "Three ___ are swimming in the pond.",
+  "options": {
+   "one": "goose",
+   "many": "geese"
+  },
+  "answer": "many",
+  "subject": "Three",
+  "why": "Three means many: one goose, many geese."
+ },
+ {
+  "id": "L3-012",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "My left foot ___ asleep.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "My left foot",
+  "why": "One foot (two feet), so \"is\"."
+ },
+ {
+  "id": "L3-013",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "The men ___ fixing the roof.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The men",
+  "why": "Men is plural (one man, many men)."
+ },
+ {
+  "id": "L3-014",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "noun",
+  "text": "I saw a ___ in the garage.",
+  "options": {
+   "one": "mouse",
+   "many": "mice"
+  },
+  "answer": "one",
+  "subject": "a",
+  "why": "\"A\" means one: one mouse."
+ },
+ {
+  "id": "L3-015",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "These people ___ my neighbors.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "These people",
+  "why": "People is plural, so \"are\"."
+ },
+ {
+  "id": "L3-016",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "My teeth ___ clean.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "My teeth",
+  "why": "Teeth is plural (one tooth, many teeth)."
+ },
+ {
+  "id": "L3-017",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "A woman ___ selling flowers.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "A woman",
+  "why": "One woman (many women), so \"is\"."
+ },
+ {
+  "id": "L3-018",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "verb",
+  "text": "Your children ___ so polite.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "Your children",
+  "why": "Children is plural, so \"are\"."
+ },
+ {
+  "id": "L3-019",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "noun",
+  "text": "The baby has one ___.",
+  "options": {
+   "one": "tooth",
+   "many": "teeth"
+  },
+  "answer": "one",
+  "subject": "one",
+  "why": "One means one: one tooth."
+ },
+ {
+  "id": "L3-020",
+  "level": 3,
+  "pattern": "irregular-plural",
+  "kind": "noun",
+  "text": "Many ___ ride the bus to work.",
+  "options": {
+   "one": "person",
+   "many": "people"
+  },
+  "answer": "many",
+  "subject": "Many",
+  "why": "Many means more than one: many people."
+ },
+ {
+  "id": "L4-001",
+  "level": 4,
+  "pattern": "indefinite-pronoun",
+  "kind": "verb",
+  "text": "Everyone ___ ready for the test.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Everyone",
+  "why": "Everyone counts as one, so \"is\"."
+ },
+ {
+  "id": "L4-002",
+  "level": 4,
+  "pattern": "each-every",
+  "kind": "verb",
+  "text": "Each student ___ a locker.",
+  "options": {
+   "one": "has",
+   "many": "have"
+  },
+  "answer": "one",
+  "subject": "Each",
+  "why": "\"Each\" looks at one at a time, so \"has\"."
+ },
+ {
+  "id": "L4-003",
+  "level": 4,
+  "pattern": "both-few-several",
+  "kind": "verb",
+  "text": "Both of my friends ___ coming.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "Both",
+  "why": "Both means two, so \"are\"."
+ },
+ {
+  "id": "L4-004",
+  "level": 4,
+  "pattern": "each-every",
+  "kind": "verb",
+  "text": "Every teacher at my school ___ nice.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Every teacher",
+  "why": "\"Every teacher\" counts as one, so \"is\"."
+ },
+ {
+  "id": "L4-005",
+  "level": 4,
+  "pattern": "indefinite-pronoun",
+  "kind": "verb",
+  "text": "Nobody ___ home right now.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Nobody",
+  "why": "Nobody counts as one, so \"is\"."
+ },
+ {
+  "id": "L4-006",
+  "level": 4,
+  "pattern": "indefinite-pronoun",
+  "kind": "verb",
+  "text": "Somebody ___ knocking on the door.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Somebody",
+  "why": "Somebody counts as one, so \"is\"."
+ },
+ {
+  "id": "L4-007",
+  "level": 4,
+  "pattern": "both-few-several",
+  "kind": "verb",
+  "text": "Several kids ___ absent today.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "Several kids",
+  "why": "Several means more than two, so \"are\"."
+ },
+ {
+  "id": "L4-008",
+  "level": 4,
+  "pattern": "both-few-several",
+  "kind": "verb",
+  "text": "A few of my friends ___ Spanish.",
+  "options": {
+   "one": "speaks",
+   "many": "speak"
+  },
+  "answer": "many",
+  "subject": "A few",
+  "why": "A few means more than one, so \"speak\"."
+ },
+ {
+  "id": "L4-009",
+  "level": 4,
+  "pattern": "indefinite-pronoun",
+  "kind": "verb",
+  "text": "Everything ___ ready for the party.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Everything",
+  "why": "Everything counts as one, so \"is\"."
+ },
+ {
+  "id": "L4-010",
+  "level": 4,
+  "pattern": "both-few-several",
+  "kind": "verb",
+  "text": "Both teams ___ really good this year.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "Both teams",
+  "why": "Both means two, so \"are\"."
+ },
+ {
+  "id": "L4-011",
+  "level": 4,
+  "pattern": "each-every",
+  "kind": "verb",
+  "text": "Each of the players ___ a number.",
+  "options": {
+   "one": "has",
+   "many": "have"
+  },
+  "answer": "one",
+  "subject": "Each",
+  "why": "\"Each\" is the subject and means one, so \"has\"."
+ },
+ {
+  "id": "L4-012",
+  "level": 4,
+  "pattern": "indefinite-pronoun",
+  "kind": "verb",
+  "text": "Everybody ___ pizza.",
+  "options": {
+   "one": "likes",
+   "many": "like"
+  },
+  "answer": "one",
+  "subject": "Everybody",
+  "why": "Everybody counts as one, so \"likes\"."
+ },
+ {
+  "id": "L4-013",
+  "level": 4,
+  "pattern": "both-few-several",
+  "kind": "verb",
+  "text": "Few students ___ the answer.",
+  "options": {
+   "one": "knows",
+   "many": "know"
+  },
+  "answer": "many",
+  "subject": "Few students",
+  "why": "Few students is still many, so \"know\"."
+ },
+ {
+  "id": "L4-014",
+  "level": 4,
+  "pattern": "each-every",
+  "kind": "verb",
+  "text": "Every day ___ a little different.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Every day",
+  "why": "\"Every day\" counts as one, so \"is\"."
+ },
+ {
+  "id": "L4-015",
+  "level": 4,
+  "pattern": "both-few-several",
+  "kind": "verb",
+  "text": "Many of my classmates ___ dogs.",
+  "options": {
+   "one": "has",
+   "many": "have"
+  },
+  "answer": "many",
+  "subject": "Many",
+  "why": "Many means more than one, so \"have\"."
+ },
+ {
+  "id": "L4-016",
+  "level": 4,
+  "pattern": "indefinite-pronoun",
+  "kind": "verb",
+  "text": "Someone ___ eating my chips.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Someone",
+  "why": "Someone counts as one, so \"is\"."
+ },
+ {
+  "id": "L4-017",
+  "level": 4,
+  "pattern": "both-few-several",
+  "kind": "verb",
+  "text": "Both of the cookies ___ broken.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "Both",
+  "why": "Both means two, so \"are\"."
+ },
+ {
+  "id": "L4-018",
+  "level": 4,
+  "pattern": "each-every",
+  "kind": "verb",
+  "text": "Each of my sisters ___ her own room.",
+  "options": {
+   "one": "has",
+   "many": "have"
+  },
+  "answer": "one",
+  "subject": "Each",
+  "why": "\"Each\" means one at a time, so \"has\"."
+ },
+ {
+  "id": "L4-019",
+  "level": 4,
+  "pattern": "both-few-several",
+  "kind": "verb",
+  "text": "Some of the students ___ late.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "Some of the students",
+  "why": "Some of many students is still many, so \"are\"."
+ },
+ {
+  "id": "L4-020",
+  "level": 4,
+  "pattern": "indefinite-pronoun",
+  "kind": "verb",
+  "text": "No one ___ the answer.",
+  "options": {
+   "one": "knows",
+   "many": "know"
+  },
+  "answer": "one",
+  "subject": "No one",
+  "why": "\"No one\" counts as one, so \"knows\"."
+ },
+ {
+  "id": "L5-001",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The box of chocolates ___ on the table.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The box",
+  "why": "The subject is the box, not the chocolates."
+ },
+ {
+  "id": "L5-002",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The keys to the front door ___ missing.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The keys",
+  "why": "The subject is the keys, not the door."
+ },
+ {
+  "id": "L5-003",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The boy with the two dogs ___ my neighbor.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The boy",
+  "why": "The subject is the boy, not the dogs."
+ },
+ {
+  "id": "L5-004",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The pictures on the wall ___ crooked.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The pictures",
+  "why": "The subject is the pictures, not the wall."
+ },
+ {
+  "id": "L5-005",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The girl in the red shoes ___ my cousin.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The girl",
+  "why": "The subject is the girl, not the shoes."
+ },
+ {
+  "id": "L5-006",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The books on my desk ___ from the library.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The books",
+  "why": "The subject is the books, not the desk."
+ },
+ {
+  "id": "L5-007",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "A bag of chips ___ two dollars.",
+  "options": {
+   "one": "costs",
+   "many": "cost"
+  },
+  "answer": "one",
+  "subject": "A bag",
+  "why": "The subject is one bag, not the chips."
+ },
+ {
+  "id": "L5-008",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The students in my class ___ really funny.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The students",
+  "why": "The subject is the students, not the class."
+ },
+ {
+  "id": "L5-009",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The cookies in the jar ___ for the party.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The cookies",
+  "why": "The subject is the cookies, not the jar."
+ },
+ {
+  "id": "L5-010",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "My list of chores ___ too long.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "My list",
+  "why": "The subject is one list, not the chores."
+ },
+ {
+  "id": "L5-011",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The kids who live next door ___ loud.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The kids",
+  "why": "The subject is the kids, so \"are\"."
+ },
+ {
+  "id": "L5-012",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The man who sells ice cream ___ very nice.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The man",
+  "why": "The subject is the man, so \"is\"."
+ },
+ {
+  "id": "L5-013",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The color of her eyes ___ green.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The color",
+  "why": "The subject is the color, not the eyes."
+ },
+ {
+  "id": "L5-014",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The windows in our kitchen ___ open.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The windows",
+  "why": "The subject is the windows, not the kitchen."
+ },
+ {
+  "id": "L5-015",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The teacher of these students ___ strict.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The teacher",
+  "why": "The subject is the teacher, not the students."
+ },
+ {
+  "id": "L5-016",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The friends I play with ___ older than me.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The friends",
+  "why": "The subject is the friends, so \"are\"."
+ },
+ {
+  "id": "L5-017",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The price of the shoes ___ too high.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The price",
+  "why": "The subject is the price, not the shoes."
+ },
+ {
+  "id": "L5-018",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The leaves on that tree ___ turning red.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The leaves",
+  "why": "The subject is the leaves, not the tree."
+ },
+ {
+  "id": "L5-019",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The noise from the trucks ___ really loud.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The noise",
+  "why": "The subject is the noise, not the trucks."
+ },
+ {
+  "id": "L5-020",
+  "level": 5,
+  "pattern": "words-in-the-way",
+  "kind": "verb",
+  "text": "The players on my team ___ all tall.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The players",
+  "why": "The subject is the players, not the team."
+ },
+ {
+  "id": "L6-001",
+  "level": 6,
+  "pattern": "uncountable",
+  "kind": "verb",
+  "text": "My homework ___ finished.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "My homework",
+  "why": "Homework can't be counted, so it takes \"is\"."
+ },
+ {
+  "id": "L6-002",
+  "level": 6,
+  "pattern": "uncountable",
+  "kind": "verb",
+  "text": "The news ___ really good today.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The news",
+  "why": "News looks plural, but it's one thing: \"is\"."
+ },
+ {
+  "id": "L6-003",
+  "level": 6,
+  "pattern": "uncountable",
+  "kind": "verb",
+  "text": "The information ___ on the website.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The information",
+  "why": "Information can't be counted, so \"is\"."
+ },
+ {
+  "id": "L6-004",
+  "level": 6,
+  "pattern": "uncountable",
+  "kind": "verb",
+  "text": "Your hair ___ really long.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Your hair",
+  "why": "Hair on your head can't be counted, so \"is\"."
+ },
+ {
+  "id": "L6-005",
+  "level": 6,
+  "pattern": "uncountable",
+  "kind": "verb",
+  "text": "The furniture in my room ___ new.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The furniture",
+  "why": "Furniture can't be counted, so \"is\"."
+ },
+ {
+  "id": "L6-006",
+  "level": 6,
+  "pattern": "uncountable",
+  "kind": "verb",
+  "text": "Money ___ not everything.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Money",
+  "why": "Money can't be counted (dollars can), so \"is\"."
+ },
+ {
+  "id": "L6-007",
+  "level": 6,
+  "pattern": "uncountable",
+  "kind": "verb",
+  "text": "The water ___ too cold.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "The water",
+  "why": "Water can't be counted, so \"is\"."
+ },
+ {
+  "id": "L6-008",
+  "level": 6,
+  "pattern": "uncountable",
+  "kind": "verb",
+  "text": "The traffic ___ terrible this morning.",
+  "options": {
+   "one": "was",
+   "many": "were"
+  },
+  "answer": "one",
+  "subject": "The traffic",
+  "why": "Traffic can't be counted, so \"was\"."
+ },
+ {
+  "id": "L6-009",
+  "level": 6,
+  "pattern": "uncountable",
+  "kind": "noun",
+  "text": "Can you give me some ___?",
+  "options": {
+   "one": "advice",
+   "many": "advices"
+  },
+  "answer": "one",
+  "subject": "",
+  "why": "Advice has no plural form."
+ },
+ {
+  "id": "L6-010",
+  "level": 6,
+  "pattern": "uncountable",
+  "kind": "noun",
+  "text": "We bought new ___ for the living room.",
+  "options": {
+   "one": "furniture",
+   "many": "furnitures"
+  },
+  "answer": "one",
+  "subject": "",
+  "why": "Furniture has no plural form."
+ },
+ {
+  "id": "L6-011",
+  "level": 6,
+  "pattern": "uncountable",
+  "kind": "noun",
+  "text": "I need more ___ about the trip.",
+  "options": {
+   "one": "information",
+   "many": "informations"
+  },
+  "answer": "one",
+  "subject": "",
+  "why": "Information has no plural form."
+ },
+ {
+  "id": "L6-012",
+  "level": 6,
+  "pattern": "uncountable",
+  "kind": "noun",
+  "text": "She has a lot of ___ tonight.",
+  "options": {
+   "one": "homework",
+   "many": "homeworks"
+  },
+  "answer": "one",
+  "subject": "",
+  "why": "Homework has no plural form."
+ },
+ {
+  "id": "L6-013",
+  "level": 6,
+  "pattern": "countable-contrast",
+  "kind": "verb",
+  "text": "The clothes ___ in the dryer.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The clothes",
+  "why": "Clothes is always plural, so \"are\"."
+ },
+ {
+  "id": "L6-014",
+  "level": 6,
+  "pattern": "countable-contrast",
+  "kind": "verb",
+  "text": "The groceries ___ still in the car.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The groceries",
+  "why": "Groceries is plural, so \"are\"."
+ },
+ {
+  "id": "L6-015",
+  "level": 6,
+  "pattern": "countable-contrast",
+  "kind": "noun",
+  "text": "I have three ___ due tomorrow.",
+  "options": {
+   "one": "assignment",
+   "many": "assignments"
+  },
+  "answer": "many",
+  "subject": "three",
+  "why": "Assignments can be counted: three assignments."
+ },
+ {
+  "id": "L6-016",
+  "level": 6,
+  "pattern": "countable-contrast",
+  "kind": "noun",
+  "text": "We need two new ___ for the kitchen.",
+  "options": {
+   "one": "chair",
+   "many": "chairs"
+  },
+  "answer": "many",
+  "subject": "two",
+  "why": "Chairs can be counted: two chairs."
+ },
+ {
+  "id": "L6-017",
+  "level": 6,
+  "pattern": "countable-contrast",
+  "kind": "verb",
+  "text": "Her suggestions ___ really helpful.",
+  "options": {
+   "one": "was",
+   "many": "were"
+  },
+  "answer": "many",
+  "subject": "Her suggestions",
+  "why": "Suggestions can be counted, so \"were\"."
+ },
+ {
+  "id": "L6-018",
+  "level": 6,
+  "pattern": "countable-contrast",
+  "kind": "verb",
+  "text": "The facts in the book ___ true.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The facts",
+  "why": "Facts can be counted, so \"are\"."
+ },
+ {
+  "id": "L6-019",
+  "level": 6,
+  "pattern": "countable-contrast",
+  "kind": "noun",
+  "text": "My parents gave me two ___ for the trip.",
+  "options": {
+   "one": "tip",
+   "many": "tips"
+  },
+  "answer": "many",
+  "subject": "two",
+  "why": "Tips can be counted: two tips."
+ },
+ {
+  "id": "L6-020",
+  "level": 6,
+  "pattern": "countable-contrast",
+  "kind": "verb",
+  "text": "The vegetables ___ fresh today.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The vegetables",
+  "why": "Vegetables can be counted, so \"are\"."
+ },
+ {
+  "id": "L7-001",
+  "level": 7,
+  "pattern": "there-be",
+  "kind": "verb",
+  "text": "There ___ three cats in the yard.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "three cats",
+  "why": "The subject comes after: three cats, so \"are\"."
+ },
+ {
+  "id": "L7-002",
+  "level": 7,
+  "pattern": "there-be",
+  "kind": "verb",
+  "text": "There ___ a spider on the ceiling.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "a spider",
+  "why": "The subject comes after: a spider, so \"is\"."
+ },
+ {
+  "id": "L7-003",
+  "level": 7,
+  "pattern": "there-be",
+  "kind": "verb",
+  "text": "There ___ a lot of people at the mall.",
+  "options": {
+   "one": "was",
+   "many": "were"
+  },
+  "answer": "many",
+  "subject": "a lot of people",
+  "why": "A lot of people means many, so \"were\"."
+ },
+ {
+  "id": "L7-004",
+  "level": 7,
+  "pattern": "there-be",
+  "kind": "verb",
+  "text": "There ___ no milk in the fridge.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "no milk",
+  "why": "Milk can't be counted, so \"is\"."
+ },
+ {
+  "id": "L7-005",
+  "level": 7,
+  "pattern": "there-be",
+  "kind": "verb",
+  "text": "There ___ two tests on Friday.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "two tests",
+  "why": "The subject comes after: two tests, so \"are\"."
+ },
+ {
+  "id": "L7-006",
+  "level": 7,
+  "pattern": "there-be",
+  "kind": "verb",
+  "text": "There ___ a new student in our class.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "a new student",
+  "why": "The subject comes after: one student, so \"is\"."
+ },
+ {
+  "id": "L7-007",
+  "level": 7,
+  "pattern": "there-be",
+  "kind": "verb",
+  "text": "There ___ too many cars on the road.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "too many cars",
+  "why": "The subject comes after: many cars, so \"are\"."
+ },
+ {
+  "id": "L7-008",
+  "level": 7,
+  "pattern": "there-be",
+  "kind": "verb",
+  "text": "There ___ a problem with my phone.",
+  "options": {
+   "one": "was",
+   "many": "were"
+  },
+  "answer": "one",
+  "subject": "a problem",
+  "why": "The subject comes after: one problem, so \"was\"."
+ },
+ {
+  "id": "L7-009",
+  "level": 7,
+  "pattern": "there-be",
+  "kind": "verb",
+  "text": "There ___ some cookies left in the box.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "some cookies",
+  "why": "The subject comes after: cookies, so \"are\"."
+ },
+ {
+  "id": "L7-010",
+  "level": 7,
+  "pattern": "there-be",
+  "kind": "verb",
+  "text": "There ___ some juice left in the bottle.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "some juice",
+  "why": "Juice can't be counted, so \"is\"."
+ },
+ {
+  "id": "L7-011",
+  "level": 7,
+  "pattern": "question-inversion",
+  "kind": "verb",
+  "text": "Where ___ my shoes?",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "my shoes",
+  "why": "The subject is \"my shoes\": many, so \"are\"."
+ },
+ {
+  "id": "L7-012",
+  "level": 7,
+  "pattern": "question-inversion",
+  "kind": "verb",
+  "text": "Where ___ your sister going?",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "your sister",
+  "why": "The subject is \"your sister\": one, so \"is\"."
+ },
+ {
+  "id": "L7-013",
+  "level": 7,
+  "pattern": "question-inversion",
+  "kind": "verb",
+  "text": "Why ___ the kids so quiet?",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "the kids",
+  "why": "The subject is \"the kids\": many, so \"are\"."
+ },
+ {
+  "id": "L7-014",
+  "level": 7,
+  "pattern": "question-inversion",
+  "kind": "verb",
+  "text": "What time ___ the movie start?",
+  "options": {
+   "one": "does",
+   "many": "do"
+  },
+  "answer": "one",
+  "subject": "the movie",
+  "why": "The subject is \"the movie\": one, so \"does\"."
+ },
+ {
+  "id": "L7-015",
+  "level": 7,
+  "pattern": "question-inversion",
+  "kind": "verb",
+  "text": "___ your friends coming to the party?",
+  "options": {
+   "one": "Is",
+   "many": "Are"
+  },
+  "answer": "many",
+  "subject": "your friends",
+  "why": "The subject is \"your friends\": many, so \"Are\"."
+ },
+ {
+  "id": "L7-016",
+  "level": 7,
+  "pattern": "question-inversion",
+  "kind": "verb",
+  "text": "How much ___ the tickets cost?",
+  "options": {
+   "one": "does",
+   "many": "do"
+  },
+  "answer": "many",
+  "subject": "the tickets",
+  "why": "The subject is \"the tickets\": many, so \"do\"."
+ },
+ {
+  "id": "L7-017",
+  "level": 7,
+  "pattern": "question-inversion",
+  "kind": "verb",
+  "text": "___ the bus late again?",
+  "options": {
+   "one": "Is",
+   "many": "Are"
+  },
+  "answer": "one",
+  "subject": "the bus",
+  "why": "The subject is \"the bus\": one, so \"Is\"."
+ },
+ {
+  "id": "L7-018",
+  "level": 7,
+  "pattern": "question-inversion",
+  "kind": "verb",
+  "text": "When ___ your parents get home?",
+  "options": {
+   "one": "does",
+   "many": "do"
+  },
+  "answer": "many",
+  "subject": "your parents",
+  "why": "The subject is \"your parents\": many, so \"do\"."
+ },
+ {
+  "id": "L7-019",
+  "level": 7,
+  "pattern": "question-inversion",
+  "kind": "verb",
+  "text": "How ___ your grandma feeling today?",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "your grandma",
+  "why": "The subject is \"your grandma\": one, so \"is\"."
+ },
+ {
+  "id": "L7-020",
+  "level": 7,
+  "pattern": "question-inversion",
+  "kind": "verb",
+  "text": "Who ___ those boys over there?",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "those boys",
+  "why": "The subject is \"those boys\": many, so \"are\"."
+ },
+ {
+  "id": "L8-001",
+  "level": 8,
+  "pattern": "pair-nouns",
+  "kind": "verb",
+  "text": "My scissors ___ in the drawer.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "My scissors",
+  "why": "Scissors is always plural, like pants and glasses."
+ },
+ {
+  "id": "L8-002",
+  "level": 8,
+  "pattern": "ics-nouns",
+  "kind": "verb",
+  "text": "Math ___ my favorite subject.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Math",
+  "why": "Math is one school subject, so \"is\"."
+ },
+ {
+  "id": "L8-003",
+  "level": 8,
+  "pattern": "compound-and",
+  "kind": "verb",
+  "text": "My mom and my aunt ___ nurses.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "My mom and my aunt",
+  "why": "Two people joined by \"and\" make many: \"are\"."
+ },
+ {
+  "id": "L8-004",
+  "level": 8,
+  "pattern": "one-of",
+  "kind": "verb",
+  "text": "One of my friends ___ from Brazil.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "One",
+  "why": "The subject is \"one\", so \"is\"."
+ },
+ {
+  "id": "L8-005",
+  "level": 8,
+  "pattern": "amounts",
+  "kind": "verb",
+  "text": "Ten dollars ___ too much for a sandwich.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Ten dollars",
+  "why": "An amount of money counts as one: \"is\"."
+ },
+ {
+  "id": "L8-006",
+  "level": 8,
+  "pattern": "gerund-subject",
+  "kind": "verb",
+  "text": "Swimming ___ good exercise.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Swimming",
+  "why": "An activity ending in -ing counts as one: \"is\"."
+ },
+ {
+  "id": "L8-007",
+  "level": 8,
+  "pattern": "pair-nouns",
+  "kind": "verb",
+  "text": "My glasses ___ broken.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "My glasses",
+  "why": "Glasses (for your eyes) is always plural."
+ },
+ {
+  "id": "L8-008",
+  "level": 8,
+  "pattern": "pair-nouns",
+  "kind": "verb",
+  "text": "These pants ___ too long.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "These pants",
+  "why": "Pants is always plural, so \"are\"."
+ },
+ {
+  "id": "L8-009",
+  "level": 8,
+  "pattern": "ics-nouns",
+  "kind": "verb",
+  "text": "Physics ___ hard for my brother.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Physics",
+  "why": "Physics is one subject, even with the -s."
+ },
+ {
+  "id": "L8-010",
+  "level": 8,
+  "pattern": "compound-and",
+  "kind": "verb",
+  "text": "Pizza and tacos ___ my favorite foods.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "Pizza and tacos",
+  "why": "Two things joined by \"and\" make many: \"are\"."
+ },
+ {
+  "id": "L8-011",
+  "level": 8,
+  "pattern": "compound-and",
+  "kind": "verb",
+  "text": "Lily and her brother ___ to the same school.",
+  "options": {
+   "one": "goes",
+   "many": "go"
+  },
+  "answer": "many",
+  "subject": "Lily and her brother",
+  "why": "Two people joined by \"and\": \"go\"."
+ },
+ {
+  "id": "L8-012",
+  "level": 8,
+  "pattern": "one-of",
+  "kind": "verb",
+  "text": "One of the windows ___ broken.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "One",
+  "why": "The subject is \"one\", not the windows."
+ },
+ {
+  "id": "L8-013",
+  "level": 8,
+  "pattern": "one-of",
+  "kind": "verb",
+  "text": "One of my teachers ___ a dog.",
+  "options": {
+   "one": "has",
+   "many": "have"
+  },
+  "answer": "one",
+  "subject": "One",
+  "why": "The subject is \"one\", so \"has\"."
+ },
+ {
+  "id": "L8-014",
+  "level": 8,
+  "pattern": "amounts",
+  "kind": "verb",
+  "text": "Two hours ___ a long time to wait.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Two hours",
+  "why": "An amount of time counts as one: \"is\"."
+ },
+ {
+  "id": "L8-015",
+  "level": 8,
+  "pattern": "amounts",
+  "kind": "verb",
+  "text": "Five miles ___ too far to walk.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Five miles",
+  "why": "A distance counts as one: \"is\"."
+ },
+ {
+  "id": "L8-016",
+  "level": 8,
+  "pattern": "gerund-subject",
+  "kind": "verb",
+  "text": "Reading comic books ___ fun.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Reading",
+  "why": "The subject is the activity (reading), so \"is\"."
+ },
+ {
+  "id": "L8-017",
+  "level": 8,
+  "pattern": "gerund-subject",
+  "kind": "verb",
+  "text": "Playing video games ___ my favorite thing.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "one",
+  "subject": "Playing",
+  "why": "The subject is the activity (playing), so \"is\"."
+ },
+ {
+  "id": "L8-018",
+  "level": 8,
+  "pattern": "pair-nouns",
+  "kind": "verb",
+  "text": "My jeans ___ in the wash.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "My jeans",
+  "why": "Jeans is always plural, so \"are\"."
+ },
+ {
+  "id": "L8-019",
+  "level": 8,
+  "pattern": "compound-and",
+  "kind": "verb",
+  "text": "My dad and I ___ going camping.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "My dad and I",
+  "why": "Two people joined by \"and\" make many: \"are\"."
+ },
+ {
+  "id": "L8-020",
+  "level": 8,
+  "pattern": "compound-and",
+  "kind": "verb",
+  "text": "The cat and the dog ___ sleeping together.",
+  "options": {
+   "one": "is",
+   "many": "are"
+  },
+  "answer": "many",
+  "subject": "The cat and the dog",
+  "why": "Two animals joined by \"and\" make many: \"are\"."
+ }
+]
