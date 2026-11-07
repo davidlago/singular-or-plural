@@ -100,3 +100,9 @@ time without review; the description and keywords change with a new version.
   with the header and search results images attached; submitted 2026-11-07, released automatically once approved.
 - **TestFlight Kids group**: build 202611071345 submitted for Beta App Review 2026-11-07; testers are notified
   automatically once it is approved.
+- **1.1.0 rejection (guideline 2.1, Information Needed)**, 2026-11-07: App Review asked for a screen recording on a
+  physical device starting at app launch, plus the app's purpose and audience, setup instructions, external
+  services, regional differences and regulated content. The answers are now the review notes in `listing.json`. The
+  recording (83 s, iPhone, latest iOS) was attached to the reply in App Review and to the App Review Information
+  attachment field, and 1.1.0 was resubmitted the same day. Future versions can reuse these notes; record a new
+  video if the main flow changes.
