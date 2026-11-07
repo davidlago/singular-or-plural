@@ -31,11 +31,10 @@ the round summary, Home, the Journey map, Stats.
 - `search.png`, 3840 × 2560 (3:2), search results: "Is or are? Swipe it fast." next to two real screenshots (it
   reads `iphone-6.3/`, so run `scripts/screenshots.sh` first).
 
-They're uploaded to the **Asset Library** and sit in a draft submission. Apple only takes a standalone asset
-submission once the app has a live version, so after 1.0.0 is released: Asset Library ▸ Draft Submissions ▸
-**Submit for Review**. Once they're approved: the live version ▸ Header and Search Results ▸ Header (then Search
-Results) ▸ **Browse Assets**, pick the asset, **Publish**. No new app version is needed. They show on iOS 27 and
-later.
+They're in the **Asset Library** and attached to the version (Header and Search Results ▸ Browse Assets), so they
+go through review with it. Apple only takes a standalone asset submission once the app has a live version; after
+that, new ones can be submitted from the Asset Library and published to the live version without a new app version.
+They show on iOS 27 and later.
 
 ## App information (set by the script)
 
@@ -86,5 +85,8 @@ time without review; the description and keywords change with a new version.
 
 ## History
 
-- **1.0.0** (build 202611071307, uploaded by CI from the `v1.0.0` tag): submitted for review 2026-11-07, released
-  automatically once approved. App Review contact copied from Dave's Music Library's listing.
+- **1.0.0** (build 202611071307, uploaded by CI from the `v1.0.0` tag): submitted for review 2026-11-07, then
+  taken out of review before Apple looked at it, to add the header and search results images. App Review contact
+  copied from Dave's Music Library's listing.
+- **1.1.0** (build 202611071345, from the `v1.1.0` tag, 320 sentences): the first version is now 1.1.0 instead,
+  with the header and search results images attached; submitted 2026-11-07, released automatically once approved.
