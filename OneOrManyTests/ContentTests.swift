@@ -6,13 +6,13 @@ struct ContentTests {
     let items = ItemBank(bundle: .main).items
 
     @Test func bankLoads() {
-        #expect(items.count >= 160)
+        #expect(items.count >= 320)
         #expect(Set(items.map(\.id)).count == items.count, "ids must be unique")
     }
 
     @Test func everyLevelHasEnoughItems() {
         for level in 1...Tuning.levelCount {
-            #expect(items.filter { $0.level == level }.count >= 20, "level \(level)")
+            #expect(items.filter { $0.level == level }.count >= 40, "level \(level)")
         }
     }
 
